@@ -11,6 +11,10 @@ public class LoopRecyclerViewPager extends RecyclerViewPager {
         this(context, null);
     }
 
+    public class LoopRecyclerViewPage (Context con, AttributeSet atts) {
+        this(con,atts,0);
+    }
+
     public LoopRecyclerViewPager(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
